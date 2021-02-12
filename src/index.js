@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from "react-router-dom"
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { GamerRater } from './components/GamerRater.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <GamerRater />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
