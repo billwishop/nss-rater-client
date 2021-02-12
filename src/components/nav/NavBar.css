@@ -2,6 +2,9 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
+    background-color: #fff;
+    margin-top: auto;
+    padding: 1em;
 }
 
 .navbar__item {

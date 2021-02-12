@@ -1,0 +1,7 @@
+.game {
+    background-color: white;
+    border: 5px solid #314C8A;
+    border-radius: 1em;
+    padding: 0 1em .5em 1em;
+    margin: 1em;
+}
